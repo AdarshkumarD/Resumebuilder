@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <h1 class="h1">Resume Building Form</h1>
+      <form>
+        <label for="fullname">Full Name</label><br />
+        <input type="text" id="Fullname" /><br /><br />
+        <label for="Dsgn">Designation</label><br />
+        <input type="text" id="designation" /><br /><br />
+        <label for="Add">Address</label><br />
+        <input type="text" name="Address" id="address" /><br /><br />
+        <label for="email">College mail id</label><br />
+        <input type="email" name="email" id="cemail" /><br /><br />
+        <label for="email">Personal mail id</label><br />
+        <input type="email" name="email" id="pemail" /><br /><br />
+        <label for="email">Alternate mail id</label><br />
+        <input type="email" name="email" id="aemail" /><br /><br />
+        <label for="contact">Contact Number</label><br />
+        <input type="tel" name="Phone" id="phone" /><br /><br />
+      </form>
+      <form>
+        <label for="Profile">Profile Summary</label><br />
+        <textarea name="ProfileSummary" id="psummary"></textarea><br /><br />
+      </form>
+      <form>
+        <label for="Education">Academics</label><br /><br />
+        <label for="BachDeg">Bachelor Degree</label>
+        <input type="text" id="bd" /><br />
+        <label for="College">College Name</label>
+        <input type="text" id="cn" />
+        <label for="Year">Year of passout</label>
+        <input type="date" name="year" id="byear" />
+        <label for="Percent">Percentage or CGPA</label>
+        <input type="text" id="bper" /><br /><br />
+      </form>
+      <form>
+        <label for="SSC">SSC</label><br /><br />
+        <label for="School">School Name</label>
+        <input type="text" id="sssn" />
+        <label for="Percent">Aggregate Percentage</label>
+        <input type="text" id="ssper" />
+        <label for="Stream">Stream</label>
+        <input type="text" id="strm" />
+        <label for="Passout year">Year of Passing</label>
+        <input type="date" name="" id="ssyear" /><br /><br />
+      </form>
+      <form>
+        <label for="SSC">HSC</label><br /><br />
+        <label for="School">School Name</label>
+        <input type="text" id="hssn" />
+        <label for="Percent">Aggregate Percentage</label>
+        <input type="text" id="hsper" />
+        <label for="Passout year">Year of Passing</label>
+        <input type="date" name="" id="hsyear" /><br /><br />
+      </form>
+      <form>
+        <label for="Skills">Skills</label><br />
+        <input type="text" id="skillsInput" name="skillsInput" /><br /><br />
+        <label for="Projects">Personal Projects</label><br />
+        <input
+          type="text"
+          id="projectsInput"
+          name="projectsInput"
+        /><br /><br />
+        <label for="experience">Work Experience</label><br />
+        <input type="text" name="Experience" id="WrkExp" /><br /><br />
+      </form>
+      <button type="button" id="btn">Create</button>
+    </div>
+  </body>
+  <script src="./form.js"></script>
+</html>
